@@ -1,0 +1,6 @@
+10 FOR n = 1 TO 50
+20 IF n MOD 2 = 1 AND n MOD 3 = 2 AND n MOD 4 = 3 AND n MOD 5 = 0 THEN 30 ELSE 40
+30 PRINT "n="; n
+40 NEXT n
+50 END
+

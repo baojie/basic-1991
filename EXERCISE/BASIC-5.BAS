@@ -1,0 +1,8 @@
+20 DIM A(20)
+30 A(1)=1:A(2)=1
+40 PRINT A(1);A(2)
+50 FOR I=3 TO 20
+60 A(I)=(A(I-1)+A(I-2))*2
+70 PRINT A(I),
+80 NEXT I
+

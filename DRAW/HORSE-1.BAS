@@ -1,0 +1,41 @@
+5 'horse-1.bas         
+6 PRINT "Draw horses"
+10 SCREEN 0, 1: WIDTH 40: COLOR 7, 0: CLS
+20 DIM A$(3): K = 1: Y = 10
+30 A$(1) = " Û  Ü   "
+40 A$(2) = "oo  Û  Û"
+50 A$(3) = " /  \   "
+60 B$ = "\/"
+90 SCREEN 0, 0: CLS : SCREEN 1, 1: CLS
+
+95 x = 1
+99 FOR x = 1 TO 10
+100 IF K = 1 THEN GOSUB 1000 ELSE GOSUB 2000
+110 IF x > 30 THEN SCREEN , , 0, 0: END
+120 GOTO 100
+130 LOCATE Y + 1, x: PRINT A$(2);
+140 LOCATE Y + 2, x: PRINT A$(3);
+150 K = 2: GOTO 200
+160 LOCATE Y, x: PRINT A$(1);
+170 LOCATE Y + 1, x: PRINT A$(2);
+180 LOCATE Y + 2, x: PRINT B$;
+190 K = 1
+200 NEXT x
+
+995 x = 1
+
+1000 SCREEN 0, 1
+1010 LOCATE Y, x: PRINT A$(1);
+1020 LOCATE Y + 1, x: PRINT A$(2);
+1030 LOCATE Y + 2, x: PRINT A$(3);
+1035 FOR T = 1 TO 5000: NEXT T
+1040 K = 2: RETURN
+
+
+2000 SCREEN 1, 0
+2010 LOCATE Y, x: PRINT A$(1);
+2020 LOCATE Y + 1, x: PRINT A$(2);
+2030 LOCATE Y + 2, x: PRINT B$;
+2035 FOR T = 1 TO 5000: NEXT T
+2040 K = 1: RETURN
+

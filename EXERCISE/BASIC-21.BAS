@@ -1,0 +1,6 @@
+5 S=0
+10 FOR I=2 TO 98 STEP  2
+20 S=S+I
+30 NEXT I
+40 PRINT "s=";S;
+

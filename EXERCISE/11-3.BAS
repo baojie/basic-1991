@@ -1,0 +1,10 @@
+10 CLS
+20 FOR A=-1 TO 0
+30   FOR B=-1 TO 0
+40     FOR C=-1 TO 0
+50       IF  A=(B=0) AND B=(C=0) AND C=(A=0 AND B=0) THEN 90
+60     NEXT C
+70   NEXT B
+80 NEXT A
+90 PRINT A,B,C
+

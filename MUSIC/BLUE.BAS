@@ -1,0 +1,17 @@
+10 PLAY"mfmst140"
+20 PLAY"o2l6df#al6ap6l6o3aap6f#f#p6"
+30 PLAY"o2l6ddf#al6ap6l6o3aap6ggp6"
+40 PLAY"o2l6c#c#el6bbp6l6o3bbp6ggp6"
+50 PLAY"o2l6c#cel6bbp6l6o3bbp6f#f#p6"
+60 PLAY"o2l6ddf#ao3dp6o4ddp6o3aap6"
+70 PLAY"o2l6ddf#ao3dp6o4ddp6o3bbp6"
+80 PLAY"o2l6eegbl3b..l6g#ao3l3f#.."
+90 PLAY"t135"
+100 PLAY"l6do2f#l6f#..eb.."
+110 PLAY"adp12l12dd.p6."
+120 PLAY"l6agp6agp6al3o3f#.."
+130 PLAY"l6eo2af#p6af#p6al3o3e.."
+140 PLAY"l6do2agp6agp6a.."
+150 PLAY"l6eo2ao3def#l3al6gl12f#f#l6f#ed"
+160 END
+

@@ -1,0 +1,5 @@
+10 FOR I=0 TO 255
+20 PRINT "CHR$(";I;")";CHR$(I);" ";:FOR J=1 TO 999:NEXT
+30 NEXT I
+40 END
+

@@ -1,0 +1,7 @@
+10 INPUT "n=";N
+20 FOR I=1 TO N
+30 A=I*(I+1):S=S+A
+40 NEXT I
+50 PRINT S
+60 END
+

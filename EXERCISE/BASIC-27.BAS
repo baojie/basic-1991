@@ -1,0 +1,8 @@
+10 S=1:N=1
+20 FOR I=1 TO 10 STEP 1
+30 N=N*2
+40 S=S+N
+50 NEXT I
+60 PRINT "s=";S
+70 END
+
